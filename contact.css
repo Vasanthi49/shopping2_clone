@@ -1,0 +1,131 @@
+/* General Styling */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+/* Navigation Bar */
+nav {
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Page Title */
+.page-title {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 20px auto;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Welcome Text */
+.welcome-text {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+/* Social Media Links */
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #222;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-link i {
+    font-size: 22px;
+}
+
+/* Hover Effect */
+.social-link:hover {
+    transform: translateY(-5px);
+    background-color: #ffcc00;
+    color: black;
+}
+
+/* Customer Support Section */
+.support-info {
+    margin-top: 50px;
+}
+
+.support-info h2 {
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* FAQ Section */
+.faq-section {
+    margin-top: 50px;
+}
+
+.faq-section h2 {
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.faq {
+    max-width: 600px;
+    margin: 15px auto;
+    text-align: left;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.faq h3 {
+    font-size: 20px;
+    color: #ffcc00;
+}
+
+.faq p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* Map Section */
+.map-container {
+    margin-top: 50px;
+}
+
+.map-container h2 {
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
